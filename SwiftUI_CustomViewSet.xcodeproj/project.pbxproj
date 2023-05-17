@@ -11,6 +11,8 @@
 		C3496FE22A151B2900112A7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3496FE12A151B2900112A7F /* ContentView.swift */; };
 		C3496FE42A151B2A00112A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3496FE32A151B2A00112A7F /* Assets.xcassets */; };
 		C3496FE72A151B2A00112A7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3496FE62A151B2A00112A7F /* Preview Assets.xcassets */; };
+		C3496FEF2A151B8100112A7F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3496FEE2A151B8100112A7F /* CustomButton.swift */; };
+		C3496FF12A151C6D00112A7F /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3496FF02A151C6D00112A7F /* ButtonType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C3496FE12A151B2900112A7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3496FE32A151B2A00112A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3496FE62A151B2A00112A7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3496FEE2A151B8100112A7F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C3496FF02A151C6D00112A7F /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		C3496FDE2A151B2900112A7F /* SwiftUI_CustomViewSet */ = {
 			isa = PBXGroup;
 			children = (
+				C3496FED2A151B7600112A7F /* CustomButton */,
 				C3496FDF2A151B2900112A7F /* SwiftUI_CustomViewSetApp.swift */,
 				C3496FE12A151B2900112A7F /* ContentView.swift */,
 				C3496FE32A151B2A00112A7F /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				C3496FE62A151B2A00112A7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3496FED2A151B7600112A7F /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				C3496FEE2A151B8100112A7F /* CustomButton.swift */,
+				C3496FF02A151C6D00112A7F /* ButtonType.swift */,
+			);
+			path = CustomButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3496FE22A151B2900112A7F /* ContentView.swift in Sources */,
+				C3496FF12A151C6D00112A7F /* ButtonType.swift in Sources */,
 				C3496FE02A151B2900112A7F /* SwiftUI_CustomViewSetApp.swift in Sources */,
+				C3496FEF2A151B8100112A7F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
